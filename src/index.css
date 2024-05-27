@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+:root {
+    --dark-el : hsl(209, 23%, 22%);
+    --dark-bg: hsl(207, 26%, 17%);
+    --light-bg: hsl(0, 0%, 98%);
+    --light-text: hsl(200, 15%, 8%);
+    --red: hsl(0, 100%, 49%);
+    --light-input: hsl(0, 0%, 52%);
+}
+
+.boxer{
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
