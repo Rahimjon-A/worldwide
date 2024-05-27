@@ -39,7 +39,7 @@ const App = () => {
         <div
             className={`${
                 switcher ? "bg-[--dark-bg]" : "bg-[--light-bg]"
-            } duration-300 pb-10 `}
+            } duration-300 pb-10 min-h-[100vh] `}
         >
             <Header />
             <Search
