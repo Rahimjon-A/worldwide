@@ -7,6 +7,7 @@ import list from "../data/countriesData";
 const Modal = () => {
     const { switcher } = useSelector((state) => state.mode);
     const { id } = useParams();
+    
     const data = list.find((item) => item.name === id);
     const navigate = useNavigate();
 
